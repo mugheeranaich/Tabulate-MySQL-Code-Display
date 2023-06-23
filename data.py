@@ -1,3 +1,4 @@
+print("Mugheera")
 import mysql.connector
 from tabulate import tabulate
 
@@ -20,3 +21,5 @@ for x in myresult:
     data.append(x)
 table = tabulate(data, headers=["id","Name","username","password","amount"], tablefmt="fancy_grid")
 print(table)
+
+print()
